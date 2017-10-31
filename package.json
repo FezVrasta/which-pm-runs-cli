@@ -1,0 +1,19 @@
+{
+  "name": "which-pm-runs-cli",
+  "version": "1.0.5",
+  "description": "Detects what package manager executes the process from CLI",
+  "main": "index.js",
+  "repository": "https://github.com/FezVrasta/which-pm-runs-cli",
+  "author": "Federico Zivolo",
+  "license": "MIT",
+  "dependencies": {
+    "which-pm-runs": "^1.0.0",
+    "yargs": "^10.0.3"
+  },
+  "bin": {
+    "which-pm-runs": "./index.js"
+  },
+  "scripts": {
+    "start": "./index.js"
+  }
+}
